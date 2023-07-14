@@ -2,7 +2,7 @@
   "private": true,
   "name": "felixtech-vault",
   "description": "Felixtech Vault App",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "author": "Jefferson Felix <jsfelix@gmail.com>",
   "main": "app/background.js",
   "scripts": {
