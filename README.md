@@ -1,38 +1,23 @@
-<p align="center"><img src="https://i.imgur.com/a9QWW0v.png"></p>
+# Felixtech Vault App
+
+<p align="center"><img src=".github/assets/login.png"></p>
+<p align="center"><img src=".github/assets/signup.png"></p>
+<p align="center"><img src=".github/assets/vault.png"></p>
 
 ## Usage
 
-### Create an App
-
-```
-# with npx
-$ npx create-nextron-app my-app --example with-tailwindcss
-
-# with yarn
-$ yarn create nextron-app my-app --example with-tailwindcss
-
-# with pnpx
-$ pnpx create-nextron-app my-app --example with-tailwindcss
-```
-
 ### Install Dependencies
 
-```
-$ cd my-app
-
-# using yarn or npm
-$ yarn (or `npm install`)
-
-# using pnpm
-$ pnpm install --shamefully-hoist
+```bash
+npm ci
 ```
 
 ### Use it
 
-```
+```bash
 # development mode
-$ yarn dev (or `npm run dev` or `pnpm run dev`)
+npm run dev
 
 # production build
-$ yarn build (or `npm run build` or `pnpm run build`)
+npm run build
 ```
