@@ -1,0 +1,12 @@
+appId: dev.felixtech.vault
+productName: Felixtech Vault
+copyright: Copyright © 2023 Felixtech Soluções em Tecnologia LTDA
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
